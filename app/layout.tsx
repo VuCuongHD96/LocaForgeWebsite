@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
+import { ThemeProvider } from "@/app/_components/theme-provider";
 
 export const metadata: Metadata = {
   title: "LocaForge - Dịch thuật phụ đề cùng cộng đồng",
@@ -14,7 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="vi" suppressHydrationWarning>
-      <body>{children}</body>
+      <body>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
