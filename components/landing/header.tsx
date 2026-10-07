@@ -33,7 +33,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <Link href="/files">
+          <Link href="/ui/files">
             <Button
               size="sm"
               className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold"

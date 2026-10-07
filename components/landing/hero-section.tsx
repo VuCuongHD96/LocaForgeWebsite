@@ -31,7 +31,7 @@ export function HeroSection() {
             </p>
 
             <div className="flex flex-wrap items-center gap-4">
-              <Link href="/files">
+              <Link href="/ui/files">
                 <Button
                   size="lg"
                   className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold px-6"
