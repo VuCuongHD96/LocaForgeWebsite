@@ -25,7 +25,7 @@ export function CTASection() {
               xây dựng thư viện phụ đề chất lượng cao cho cộng đồng Việt Nam.
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
-              <Link href="/files">
+              <Link href="/ui/files">
                 <Button
                   size="lg"
                   className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold px-8"
